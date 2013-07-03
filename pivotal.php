@@ -178,7 +178,7 @@
 			$xml = shell_exec($cmd);
 
 			$activity = new SimpleXMLElement($xml);			
-			return $xml;			
+			return $activity;
 		}
 	
 	}
